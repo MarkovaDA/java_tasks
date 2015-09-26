@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<GridPane alignment="center" hgap="2" stylesheets="/sample/view/GameStyle.css" vgap="2" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.control.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <Button fx:id="btn00" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+       <Button fx:id="btn01" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+       <Button fx:id="btn02" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="2" GridPane.rowIndex="0" />
+       <Button fx:id="btn10" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+       <Button fx:id="btn11" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+       <Button fx:id="btn12" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+       <Button fx:id="btn20" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+       <Button fx:id="btn21" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+       <Button fx:id="btn22" mnemonicParsing="false" onAction="#setSymbol" prefHeight="50" prefWidth="50" text="" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+      <CheckBox mnemonicParsing="false" text="играть с компьютером" GridPane.columnIndex="3" />
+      <Button fx:id="btnClear" mnemonicParsing="false" prefHeight="25.0" prefWidth="154.0" text="очистить поле" GridPane.rowIndex="4" GridPane.columnSpan="3" onAction="#clearField" />
+   </children>
+</GridPane>
